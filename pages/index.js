@@ -8,9 +8,7 @@ const HomePage = ({ meetups }) => {
     <Fragment>
       <Head>
         <title>React Meetups</title>
-        <meta name="description" content="Browse a meetups list.">
-          {' '}
-        </meta>
+        <meta name="description" content="Browse a meetups list." />
       </Head>
       <MeetupList meetups={meetups}></MeetupList>
     </Fragment>
